@@ -1,11 +1,22 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Vishnu says hi!</title>
+        <title>Vishnu's says hi!</title>
     </head>
     <body>
-        <input type="text"><br>
-        <button onclick="action()">Submit</button>
 
+        <input type="text" id="input"><br>
+        <button onclick="action()">Submit</button>
+        <script type="text/javascript">
+        function action(){
+            input = document.getElementById("input").value;
+            httpsrequest = new XMLHttpRequest();
+            url = "" + input;
+            httpsrequest.open(GET, url);
+            httpsrequest.send();
+            httpsrequest.onload = function(){func1(this);}
+        }
+        </script>
     </body>
 </html>
