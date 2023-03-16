@@ -5,21 +5,29 @@
         <title>Vishnu's says hi!</title>
     </head>
     <body>
-
-        <input type="text" id="input"><br>
+        <p id="output">output</p>
+        <input id="input"><br>
         <button onclick="action()">Submit</button>
         <script type="text/javascript">
         function action(){
             input = document.getElementById("input").value;
             httpsrequest = new XMLHttpRequest();
-            url = "" + input;
-            httpsrequest.open(GET, url);
+            url = "https://api.weatherbit.io/v2.0/current?city=" + input + "&key=693405ea9fdb4e96b1404bde84fb7a90";
+            httpsrequest.open("GET", url);
             httpsrequest.send();
-            httpsrequest.onload = function(){func1(this);}
+            httpsrequest.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                user_data = JSON.parse(this.responseText);
+                document.getElementById("output").innerHTML = user_data.data[0].temp;
+            }
+        }
         }
             
         function func1(xml){
-            const a = 10;
+            if(this.readyState == 4 && this.status == 200){
+                user_data = JSON.parse(this.responseText);
+                document.getElementById("output").innerHTML = user_data.data[0].temp;
+            }
         }
         </script>
     </body>
