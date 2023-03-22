@@ -15,7 +15,7 @@
             url = "https://api.weatherbit.io/v2.0/current?city=" + input + "&key=693405ea9fdb4e96b1404bde84fb7a90";
             httpsrequest.open("GET", url);
             httpsrequest.send();
-            httpsrequest.onreadystatechange = function(){
+            httpsrequest.onload = function(){
                 if(this.readyState == 4 && this.status == 200){
                 user_data = JSON.parse(this.responseText);
                 document.getElementById("output").innerHTML = user_data.data[0].temp;
