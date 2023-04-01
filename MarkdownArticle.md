@@ -1,4 +1,5 @@
 # Let's explore Git
+![GitHub](GitHub-Logo_White.png)  
 
 ---
 
