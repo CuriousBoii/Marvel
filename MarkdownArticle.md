@@ -1,4 +1,5 @@
 # Let's explore Git
+![GitHub](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimg.com%2Fimage%2F73397&psig=AOvVaw0duzeqcXAH1xXSqnUDad4p&ust=1680443261739000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJj6kY_piP4CFQAAAAAdAAAAABAE)
 
 ---
 
