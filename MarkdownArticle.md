@@ -1,5 +1,5 @@
 # Let's explore Git
-![GitHub](/GitHub-Logos/GitHub-Logos/GitHub_Logo_White.png)  
+![GitHub](https://github.com/CuriousBoii/Marvel/blob/master/GitHub-Logos/GitHub-Logos/GitHub_Logo_White.png)  
 
 ---
 
