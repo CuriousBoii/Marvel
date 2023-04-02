@@ -1,5 +1,6 @@
 # Let's explore Git
-![GitHub](https://github.com/CuriousBoii/Marvel/blob/master/GitHub-Logos/GitHub-Logos/GitHub_Logo_White.png)  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HkdAHXoRtos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -48,7 +49,14 @@ git commit
 git pull
 git push
 ```
+
+### Here's an overview of the git-commands.
+
+![a](https://qirolab.com/images/202011UfPvdWswXRHFigUjiYnqoM8644TXmWdA0NjmoFIr.png)
+
 ---
 
 I love git, I'm never going back!
 >Probably every git user. lol
+
+[def]: https://github.com/CuriousBoii/Marvel/blob/master/GitHub-Logos/GitHub-Logos/GitHub_Logo_White.png
